@@ -7,7 +7,7 @@ namespace HierarchyStructureTests
     public class HierarchyStructureTests
     {
         private List<Branch> _branches;
-        private StructureDeepthCalculator _calculator;
+        private IStructureDeepthCalculator _calculator;
 
         [TestInitialize]
         public void SetUp()
